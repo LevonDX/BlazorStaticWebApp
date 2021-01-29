@@ -17,9 +17,8 @@ namespace ProductsBlazorApp
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
 
-            string baseAddress = "http://localhost:7071/";
-
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(baseAddress) });
+            string baseAddress = builder.Configuration["BaseAddress"] ?? builder.HostEnvironment.BaseAddress;
+            builder.Services.AddScoped(_ => new HttpClient { BaseAddress = new Uri(baseAddress) });
 
             await builder.Build().RunAsync();
         }

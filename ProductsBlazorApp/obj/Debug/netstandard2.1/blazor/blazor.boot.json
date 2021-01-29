@@ -1,12 +1,14 @@
 {
   "cacheBootResources": true,
-  "config": [ ],
+  "config": [
+    "appsettings.Development.json"
+  ],
   "debugBuild": true,
   "entryAssembly": "ProductsBlazorApp",
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "ProductsBlazorApp.dll": "sha256-CLQafYE19dmm7nS55\/l\/9AlWxdHrlaVqpnLkuQrWujE=",
+      "ProductsBlazorApp.dll": "sha256-8Gk7EPs3JudBXdNxd5LAFSB2TPxLswwf\/8IaqoEI7fs=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +63,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "ProductsBlazorApp.pdb": "sha256-UiwtiDLg78YoVOgR7zIZaX6fiDSX0er39hYqpsviAg8=",
+      "ProductsBlazorApp.pdb": "sha256-KQTFNVpqiqBWDDQWUjqI0DsZLOF0CF\/aUl2Ds0ufa5Q=",
       "Data.pdb": "sha256-iF2sonH\/OLOVqeO2KPraBvVMXIDgWAbcT2xKy7rbX2c="
     },
     "runtime": {
